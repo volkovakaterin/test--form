@@ -1,0 +1,109 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+.status-field {
+    margin-left: 60px;
+}
+
+.status-field .control .radio:not(:first-child) {
+    margin-top: 10px;
+}
+
+.radio {
+    display: block;
+    margin-left: 0 !important;
+
+    font-weight: 700;
+}
+
+.field.is-horizontal {
+    width: 45%;
+}
+
+.field-label {
+    flex-grow: 2;
+}
+
+.field-body {
+    flex-grow: 4;
+}
+
+.field-label .label {
+    font-weight: 400;
+}
+
+.email-field {
+    margin-top: 60px;
+}
+
+.contacts-field .hide {
+    display: none;
+}
+
+.field.is-horizontal.address {
+    width: 80%;
+}
+
+.street-label {
+    flex-grow: 2.2;
+}
+
+.street-body,
+.house-body {
+    flex-grow: 3;
+}
+
+.house-label {
+    flex-grow: 1.2;
+}
+
+.office-label,
+.office-body,
+.phone-control {
+    flex-grow: 1;
+}
+
+.activities-field .control {
+    display: flex;
+
+    margin-top: 15px;
+    width: 17%;
+    text-align: right;
+}
+
+.activities-field .checkbox {
+    width: 100%;
+}
+
+.activities-field input {
+    margin-left: 1.2rem;
+}
+
+.submit-control {
+    width: 16%;
+}
+
+.submit-control button {
+    width: 100%;
+}
+
+.message {
+    position: absolute;
+    bottom: 50vh;
+    left: calc(50% - 250px);
+
+    display: none;
+    width: 500px;
+}
+
+.message-header {
+    justify-content: flex-end;
+}
+
+.message-body {
+    text-align: center;
+}
+
+.show {
+    display: block;
+}
+
